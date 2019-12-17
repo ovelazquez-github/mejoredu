@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>mx.maven</groupId>
-    <artifactId>mavenmejoredu</artifactId>
-    <version>1.0</version>
+    <groupId>mx.gob</groupId>
+    <artifactId>mejoredu</artifactId>
+    <version>${version}</version>
     <packaging>war</packaging>
 
-    <name>mejoredu</name>
+    <name>mx.gob.mejoredu</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
@@ -72,5 +72,12 @@
             </plugin>
         </plugins>
     </build>
+	<distributionManagement>
+		<repository>
+		  <id>mejoredu</id>
+		  <name>mejoredu</name>
+		  <url>http://192.168.1.115:8081/repository/mejoredu</url>
+		</repository>
+    </distributionManagement>
 
 </project>
