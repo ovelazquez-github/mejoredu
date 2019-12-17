@@ -76,7 +76,7 @@
 		<repository>
 		  <id>mejoredu</id>
 		  <name>mejoredu</name>
-		  <url>http://192.168.1.115:8081/repository/mejoredu</url>
+		  <url>http://172.17.2.30:8081/repository/mejoredu</url>
 		</repository>
     </distributionManagement>
 
